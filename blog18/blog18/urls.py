@@ -20,7 +20,7 @@ from curd import views
 urlpatterns = [
     path("admin/", admin.site.urls),
     path("",views.base_page,name="index"),
-    path("about",views.About_page,name="about"),
+    path("About",views.About_page,name="About"),
     path("menu",views.Menu_page,name="menu"),
     path("python",views.Python_ide,name="python")
 ]
